@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bichri parfum</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 style="color: gold;"">BICHRI PARFUM</h1>
+            <nav>
+                <ul>
+                    <li><a href="#accueil">accueil</a></li>
+                    <li><a href="#produits">produits</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <section id="produits">
+         <!-- Conteneur principal pour les produits -->
+        <div class="container">
+            <!-- Titre de la section, centré avec une marge en bas et le texte en blanc -->
+            <h2 class="text-center mb-4" style="color: white;">Nos produits</h2>
+             <!-- Début de la ligne qui contiendra les différents produits -->
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="pexels-394883963-15652265.jpg" class="card-img-top" alt="jicky guerlain">
+                        <div class="card-body">
+                            <h4 style="color: red;" class="card-title">Jicky Guerlain</h4>
+                            <p class="card-text"> Jicky incarne une élégance intemporelle, alliant tradition et modernité, et reste une référence dans l'univers de la parfumerie.</p>
+                            <p class="card-text"><strong style="color: blue;">Prix: 70000fr</strong></p>
+                            <a href="lien-vers-page-achat" class="bouton acheter">
+                                <strong>acheter maintenant</strong>
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="bo.jpg" class="card-img-top" alt="black opium">
+                        <div class="card-body">
+                            <h4 style="color: red;" class="card-title">Black Opium</h4>
+                            <p class="card-text"> Ce parfum est connu pour son odeur audacieuse et envoûtante, combinant des notes de café, de vanille et de fleurs blanches</p>
+                            <p class="card-text"><strong style="color: blue;">Prix:50000fr</strong></p>
+                            <a href="lien-vers-page-achat" class="bouton acheter">
+                                <strong>acheter maintenant</strong>
+
+                            </a>
+                        
+                        </div>
+                    </div>   
+                </div>
+                <!-- Colonne de largeur 3 sur un écran moyen (md), utilisée pour la mise en page responsive -->    
+                <div class="col-md-3">
+                    <!-- Carte contenant une image, un titre, du texte et un bouton d'achat -->
+                    <div class="card">
+                        <!-- Image de l'article avec une balise alt pour le texte alternatif -->
+                        <img src="pexels-beautinow-niche-perfume-413075804-15007551.jpg" alt="sayat nova">
+                        <!-- Corps de la carte où se trouvent les détails du produit -->
+                        <div class="card-body">
+                            <h4 style="color: red;" class="card-title">Sayat Nova</h4>
+                             <!-- Description du produit, mettant en avant les caractéristiques du parfum -->
+                            <p class="card-text"> Sayat Nova est un parfum mystérieux et sophistiqué qui incarne une atmosphère romantique et intemporelle</p>
+                             <!-- Prix du produit, stylisé en bleu avec l'utilisation de <strong> pour insister -->
+                            <p class="card-text"><strong style="color: blue;">prix:40000fr</strong></p>
+                             <!-- Lien pour rediriger vers la page d'achat du produit avec un texte incitatif -->
+                            <a href="lien-vers-page-achat" class="bouton acheter">
+                                <strong>acheter maintenant</strong>
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card">
+                        <img src="pexels-fariborzart-11770971.jpg" alt="mehran modiri">
+                        <div class="card-body">
+                            <h4 style="color: red;" class="card-title">Mehran Modiri</h4>
+                            <p class="card-text">Ce parfum incarne un style à la fois classique et contemporain, parfait pour les hommes et les femmes à la recherche d'une signature olfactive unique et intemporelle.</p>
+                            <p class="card-text"><strong style="color:blue ;">Prix:25000fr</strong></p>
+                            <a href="lien-vers-page-achat" class="bouton acheter">
+                                <strong>acheter maintenant</strong>
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+            
+            </div>
+        </div>
+    </section>
+
+<!-- Section avec une marge en haut et en bas -->
+    <section class="py-5">
+          <!-- Conteneur pour centrer et limiter la largeur du contenu -->
+        <div class="container">
+            <!-- Titre de la section, centré et avec une marge en bas -->
+            <h2 class="text-center mb-4">Contactez-nous</h2>
+            <form>
+                <div class="form-group">
+                     <!-- Étiquette du champ nom, avec un style de couleur blanche -->
+                    <label for="name" style="color: white;">Nom</label>
+                     <!-- Champ de saisie pour le nom -->
+                    <input type="text" class="form-control" id="name" placeholder="Votre nom">
+                </div>
+                <div class="form-group">
+                    <label for="email" style="color: white;">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Votre email">
+                </div>
+                <div class="form-group">
+                    <label for="message" style="color: white;">Message</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Votre message"></textarea>
+                </div>
+                 <!-- Bouton pour soumettre le formulaire -->
+                <button type="submit" class="btn btn-primary">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="text-center py-4">
+        <p>&copy; 2024 Bichri Parfum. Tous droits réservés.</p>
+        <div>
+            <a href="#" class="btn btn-outline-primary">Facebook</a>
+            <a href="#" class="btn btn-outline-primary">Instagram</a>
+            <a href="#" class="btn btn-outline-primary">Twitter</a>
+        </div>
+    </footer>
+
+</body>
+</html>
